@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="board" class="board"></div>
+
+  <div id="scoreBox">Score: 0</div>
+<div id="highScoreBox">High Score: 0</div>
+
+<div id="pauseOverlay" class="overlay">Game Paused (Press Space to Resume)</div>
+
+<div id="gameOverScreen" class="overlay">
+  <h1>Game Over</h1>
+  <button id="restartBtn">Restart</button>
+</div>
+
+<button id="settingsBtn">⚙️ Settings</button>
+
+<div id="settingsMenu" class="overlay">
+  <h1>Game Settings</h1>
+  
+  <button id="pauseBtn">⏸ Pause / ▶ Resume</button>
+  <button id="musicBtn">🎵 Toggle Music</button>
+  
+  <label for="snakeColor">🐍 Snake Color:</label>
+  <input type="color" id="snakeColor" value="#32cd32">
+
+  <label for="difficulty">⚡ Difficulty:</label>
+  <select id="difficulty">
+    <option value="1">Easy</option>
+    <option value="1.5">Medium</option>
+    <option value="2">Hard</option>
+  </select>
+  
+  <button id="closeSettings">Close</button>
+</div>
+
+  <script src="game.js"></script>
+</body>
+</html>
