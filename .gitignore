@@ -1,0 +1,32 @@
+# Node dependencies
+/node_modules
+/package-lock.json
+
+# Env files
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+/dist
+/build
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE junk
+.vscode/
+.idea/
+*.swp
+
+# Cache
+.cache/
+*.log
+
+# Optional: if you ever add coverage or testing
+coverage/
